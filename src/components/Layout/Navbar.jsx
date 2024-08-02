@@ -9,7 +9,7 @@ const Navbar = () => {
   };
   return (
     <div className="flex flex-col items-center">
-      <div className="bg-[#0573F0] py-5 px-4 text-white w-full">
+      <div className="bg-[#0573F0] py-5 px-4 text-white w-full fixed">
         <nav className="flex justify-between ">
           <div className="" to="/">
             React Ecommerce
@@ -81,7 +81,7 @@ const Navbar = () => {
           </div>
         </nav>
       </div>
-      <div className="max-w-[1500px]">
+      <div className="max-w-[1500px] mt-20">
         <Outlet />
       </div>
     </div>
